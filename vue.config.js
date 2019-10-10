@@ -20,6 +20,7 @@ module.exports = {
       .set('@', resolve('src'))
       .set('@assets',resolve('src/assets'))
       .set('common', resolve('src/common'))
+      .set('api', resolve('src/api'))
     // const oneOfsMap = config.module.rule('scss').oneOfs.store
     /*在vue开发中，在sass中，定义了一个函数或者mixin ，并且单独写在一个文件中，
     比如叫mixin.scss, 要使用必须要@import,

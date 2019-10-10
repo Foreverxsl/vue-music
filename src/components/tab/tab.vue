@@ -18,8 +18,6 @@
 <script>
 export default {
   mounted () {
-    var aa = document.getElementsByClassName('tab-item')[0]
-    console.log(window.getComputedStyle(aa).display)
   },
 }
 </script>

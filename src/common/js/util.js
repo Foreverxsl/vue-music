@@ -2,7 +2,7 @@
  * @Author: cjh
  * @Date: 2019-09-29 11:45:11
  * @LastEditors: cjh
- * @LastEditTime: 2019-09-30 14:10:06
+ * @LastEditTime: 2019-09-30 15:37:27
  * @Description: 常用函数库
  */
 
@@ -69,7 +69,7 @@ Util.throttle = (func, delay) => {
 * @param {*} array 数组
 */
 
-Util.dedupe = (array) => {
+Util.unique = (array) => {
   return [...new Set(array)]
 }
 
